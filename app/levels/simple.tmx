@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="../img/tileset.png" width="160" height="32"/>
+ </tileset>
+ <layer name="walls" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt00EKACAIRFG9/6XbRhSUWln8B26HGSIRwE9vFziMvX/LuDeik1YXnR3N2kllvNObvdPOTq/tbd9wtX/WvdY9M9mZsTdXXrTef/UeAAAjBQVKADc=
+  </data>
+ </layer>
+ <objectgroup name="coins" width="60" height="20">
+  <object gid="4" x="353" y="251"/>
+  <object gid="4" x="426" y="256"/>
+  <object gid="4" x="563" y="185"/>
+  <object gid="4" x="668" y="141"/>
+ </objectgroup>
+ <objectgroup name="player" width="60" height="20">
+  <object gid="5" x="135" y="284"/>
+ </objectgroup>
+ <objectgroup name="moving_lava" width="60" height="20">
+  <object gid="3" x="224" y="416"/>
+  <object gid="3" x="256" y="416"/>
+  <object gid="3" x="289" y="416"/>
+  <object gid="3" x="319" y="417"/>
+  <object gid="2" x="798" y="105"/>
+ </objectgroup>
+ <layer name="lava" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwzEJAAAMA7DC/HveWQM9E0gCAAAs3DAAUA+wDwA6
+  </data>
+ </layer>
+</map>
